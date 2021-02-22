@@ -1,0 +1,402 @@
+
+
+.navbarPart{
+  background-image: url("images/img_1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  .navbar{
+    .navbar-nav{
+      li{
+        a{
+          &:hover{
+            color: white!important;
+          }
+        }
+      }
+      text-align: center!important;
+          .link:focus {
+            color: white;
+      }
+    }
+  }
+  .navbarFooter{
+h1{
+  font-weight: 700;
+  font-size: 6vw;
+}
+    p{
+      color: #818181;
+    }
+  }
+}
+.navbarPartSerivces{
+  background-image: url("images/img_2.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  .navbar{
+    .navbar-nav{
+      li{
+        a{
+          &:hover{
+            color: white!important;
+          }
+        }
+      }
+      text-align: center!important;
+      .link:focus{
+        color: white;
+      }
+    }
+  }
+  .navbarFooter{
+h1{
+  font-weight: 700;
+  font-size: 6vw;
+}
+    p{
+      color: #818181;
+    }
+  }
+}
+.ourComfort{
+  background-color: #0D0D0D;
+  .col-4{
+    h1{
+      text-align: center;
+    }
+  }
+}
+.bizningJamoa{
+  background-color: #0D0D0D;
+  .col-4{
+    h1{
+      text-align: center;
+    }
+  }
+}
+
+.ourService{
+  background-color: #0D0D0D;
+  .col-4{
+    h1{
+      text-align: center;
+    }
+  }
+}
+
+.aboutUs{
+
+  .col-lg-6{
+    .card{
+      .card-body{
+.card-img{
+
+}
+        .ramka{
+          position: absolute;
+          width: 93%;
+          height: 93%;
+          left: 0px;
+          top: 0px;
+          z-index: 1!important;
+        }
+      }
+    }
+  }
+  background-color: #0D0D0D;
+  .col-4{
+
+    h1{
+      text-align: center;
+    }
+  }
+}
+
+.portfolio{
+  background-color: #0D0D0D;
+  .col-4{
+    h1{
+      text-align: center;
+    }
+  }
+}
+
+.aboutUsView{
+  background-color: #0D0D0D;
+  .col-4{
+    h1{
+      text-align: center;
+    }
+  }
+}
+.slick-slider{
+  .slick-prev{
+    display: none!important;
+  }
+  .slick-next{
+    display: none!important;
+  }
+}
+
+.contact{
+
+  background-color: #0D0D0D;
+  .col-4{
+    h1{
+      text-align: center;
+    }
+  }
+}
+
+.inputColor{
+  background-color: #272727;
+}
+.footer{
+  background-color: #0D0D0D;
+  .col-4{
+    h1{
+      font-size: 4vw!important;
+    }
+  }
+
+}
+button.bg-danger:hover {
+  box-shadow: 0 0 25px red;
+  background-color: #bd2130!important;
+}
+button.ourworks:hover {
+  background-color: white!important;
+  color: black!important;
+}
+
+@media (max-width: 762px) {
+  .title-of-component{
+    font-size: 25px!important;
+  }
+  .navbarFooter{
+    padding-top: 0!important;
+    h1{
+      padding-top: 0!important;
+    }
+    .buttons{
+      padding-bottom: 20px;
+    }
+  }
+
+  .icons{
+    display: none!important;
+  }
+
+  .show .line-first {
+    transition: 0.25s ease;
+    transform-origin: left;
+    transform: rotate(
+                    45deg
+    );
+  }
+  .show .line-third {
+    transition: 0.25s ease;
+    transform-origin: left;
+    transform: rotate(
+                    -45deg
+    );
+  }
+  .show .line-second {
+    background-color: transparent!important;
+  }
+  .show{
+    .navbar-nav{
+
+    }
+  }
+  .mobil_burger{
+    text-align: center!important;
+    transition: 0.25s ease;
+    width: 55px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+    .line-first{
+      width: 33px;
+      height: 3px;
+      background-color: #fff;
+      display: block;
+      margin: 0 auto;
+      margin-top: 0px
+    }
+    .line-second{
+      width: 33px;
+      height: 3px;
+      background-color: #fff;
+      display: block;
+      margin: 0 auto;
+      margin-top: 8px
+    }
+    .line-third{
+      width: 33px;
+      height: 3px;
+      background-color: #fff;
+      display: block;
+      margin: 0 auto;
+      margin-top: 8px
+    }
+  }
+}
+@media (max-width: 772px) {
+.contact{
+  .img{
+    width: 100% !important;
+  }
+}
+  .portfolio{
+    .komp-versin{
+      display: none!important;
+    }
+    .mobile-version{
+      display: block!important;
+    }
+  }
+
+}
+@media (max-width: 992px) {
+  .contact {
+    .img {
+      width: 100% !important;
+    }
+  }
+}
+@media (max-width: 992px) {
+  .mobile-footer{
+    display: block!important;
+  }
+  .footer-komp{
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .title-of-component{
+    font-size: 16px!important;
+  }
+}
+.text-color{
+  color: #777777;
+}
+.textlink{
+  color: white!important;
+}
+
+.dropdown-menu{
+  margin-top: 0;
+  padding-top: 0;
+  width: 100%!important;
+  min-width: unset!important;
+  background-color: transparent;
+  color: white!important;
+  .dropdown-item{
+    color: white;
+    &:hover{
+      color: black;
+    }
+  }
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  mask-size: 100%;
+  background-color: white;
+  mask-repeat: no-repeat;
+  vertical-align: sub;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  &.iconinstagram {
+    mask-image: url("images/facebook.svg");
+    -webkit-mask-image: url("images/facebook.svg");
+
+  }
+  &.iconfacebook {
+    mask-image: url("images/instagram.svg");
+    -webkit-mask-image: url("images/instagram.svg");
+
+  }
+  &.icontg {
+    mask-image: url("images/tg.svg");
+    -webkit-mask-image: url("images/tg.svg");
+
+  }
+}
+.iconborder{
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-down {
+  text-align: center;
+  margin-top: -1px;
+  position: relative;
+  .arrowOne{
+    width: 27px;
+    height: 4px;
+    background-color: #0D0D0D;
+    margin-left: 4px;
+  }
+  .arrowTwo{
+    width: 20px;
+    height: 1px;
+    background-color: white;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 14px;
+    top: 7px;
+  }
+  .arrowThree{
+    width: 20px;
+    height: 1px;
+    background-color: white;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 0px;
+    top: 7px;
+  }
+}
+
+.map-container-2{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-2 iframe{
+  left:0;
+  top:0;
+  height:100% !important;
+  width:100% !important;
+  position:absolute;
+}
+
+.aaa{
+    width: 100%;
+    height: 100%;
+}
+.mapCol{
+  height: 300px;
+  .card{
+    height: 100%;
+    width: 100%;
+    .map-container{
+      width: 100%;
+    }
+  }
+}
